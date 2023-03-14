@@ -1,0 +1,263 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: hsl(270, 20%, 96%);
+}
+
+.status, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-shape {
+    width: 300px;
+    height: 70vh;
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-bottom-right-radius: 75%;
+    z-index: -1;
+    position: fixed;
+    margin-left: -120px;
+    top: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.mobile-app-body {
+    border: 13px solid hsl(0, 0%, 100%);
+    border-radius: 40px;
+    width: fit-content;
+    height: fit-content;
+    background: hsl(270, 20%, 96%);
+    width: 300px;
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.screenspace {
+    width: 140px;
+    height: 20px;
+    background: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 0;
+    right: 80px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    padding-top: 18px;
+    padding-bottom: 30px;
+    height: 40px;
+}
+
+.author-status, .avatar {
+    margin-top: 20px;
+}
+
+.author-status {
+    text-align: left;
+    margin-left: -60px;
+}
+
+.back-icon, .menu-icon {
+    margin-top: 35px;
+}
+
+.avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: solid 2px hsl(270, 20%, 96%);
+    margin-left: -60px;
+}
+
+.avatar-name {
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.status {
+    color: hsl(276, 100%, 81%);
+    margin-top: 3px;
+}
+
+.dog-img {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.mobile-app-body p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.text-rcvd {
+    color: hsl(276, 55%, 52%);
+    background: hsl(262, 27%, 92%);
+    text-align: left;
+    width: 60%;
+    padding: 10px;
+    border-radius: 15px;
+    border-bottom-left-radius: 5px;
+    line-height: 18px;
+    margin-left: 12px;
+}
+
+.dog-section {
+    text-align: right;
+    margin: 10px;
+}
+
+.dog-img {
+    margin-right: 3px;
+}
+
+.dog-img:last-child {
+    margin-right: 0;
+}
+
+.text-sent {
+    color: hsl(271, 15%, 43%);
+    background: hsl(0, 0%, 100%);
+    text-align: left;
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px;
+    border-bottom-right-radius: 5px;
+    line-height: 18px;
+    margin-left: 120px;
+}
+
+p:nth-of-type(4) {
+    width: 40%;
+    margin-left: 150px;
+}
+
+.price-select {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.radio-button {
+    margin: 3px;
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    padding: 10px;
+    border-radius: 15px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    
+}
+
+.time {
+    color: hsl(0, 42%, 87%);
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: -50px;
+    margin-top: 7px;
+}
+
+.time2{
+    color: hsl(0, 42%, 87%);
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: -70px;
+    margin-top: 7px;
+}
+
+.price {
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+input[type=radio]{
+    accent-color: hsl(289, 100%, 72%);
+}
+
+.text-field {
+    margin-top: 20px;
+}
+
+input[type=text] {
+    padding: 15px;
+    border-radius: 50px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: none;
+    margin-left: -10px;
+}
+
+.send-btn {
+    border-radius: 50%;
+    margin-left: -40px;
+}
+
+.booking-section {
+    margin: 60px auto 40px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: hsl(271, 36%, 24%);
+}
+
+.booking-intro {
+    width: 80%;
+    margin: auto;
+    line-height: 24px;
+    color: hsl(270, 7%, 64%);
+}
+
+.attribution {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .bg-shape {
+        width: 520px;
+        height: 800px;
+        margin-left: -200px;
+        border-bottom-left-radius: 50%;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: no-wrap;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: auto;
+    }
+
+    .booking-section {
+        width: 40%;
+        margin: 0;
+        margin-top: 350px;
+        text-align: left;
+        flex-basis: 50%;
+    }
+
+    .booking-intro {
+        width: 80%;
+        margin-left: 0px;
+    }
+}
